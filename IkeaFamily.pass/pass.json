@@ -1,0 +1,52 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "<IKEA_FAMILY_IDENTIFIER>",
+  "serialNumber" : "8j23fm3",
+  "teamIdentifier" : "<IKEA_FAMILY_TEAM_ID>",
+  "barcode" : {
+    "format" : "PKBarcodeFormatQR",
+    "message" : "<IKEA_FAMILY_ID>",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "IKEA",
+  "description" : "IKEA Family Membership",
+  "logoText" : "IKEA Family Austria",
+  "foregroundColor" : "rgb(255,255,255)",
+  "backgroundColor" : "rgb(254,102,0)",
+  "generic" : {
+    "primaryFields" : [
+      {
+        "key" : "member",
+        "label" : "Name",
+        "value" : "<IKEA_FAMILY_NAME>"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "card",
+        "label" : "Cardnumber",
+        "value" : "<IKEA_FAMILY_ID>"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "level",
+        "label" : "",
+        "value" : ""
+      },
+      {
+        "key" : "favorite",
+        "label" : "",
+        "value" : "",
+        "textAlignment" : "PKTextAlignmentRight"
+      }
+    ],
+    "backFields" : [
+      {
+        "label" : "Information",
+        "key" : "info",
+        "value" : "Version 1.0.1 (28.10.2016)"
+      }
+    ]
+  }
+}
